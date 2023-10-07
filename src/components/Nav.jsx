@@ -26,9 +26,9 @@ function Nav() {
           <ul>
             <NavLink to="/"><li>Home</li></NavLink>
             <NavLink to="/about"><li>About</li></NavLink>
-            <NavLink to="/"><li>My Gears - NEW</li></NavLink>
+            <NavLink to="/projects"><li>My Projects</li></NavLink>
             <NavLink to="/"><li>Blogs - NEW</li></NavLink>
-            <a href='https://www.linkedin.com/in/ujjawal-rajput'><li>Connect</li></a>
+            <a href='https://www.linkedin.com/in/ujjawal-rajput'><li>Connect-On-Linkedin</li></a>
           </ul>
         </div>
         <div className='navham' onClick={toggleMobileNav}>
@@ -39,9 +39,9 @@ function Nav() {
           <ul>
             <NavLink to="/"><li>Home</li></NavLink>
             <NavLink to="/about"><li>About</li></NavLink>
-            <NavLink to="/"><li>My Gears - NEW</li></NavLink>
+            <NavLink to="/projects"><li>My Projects</li></NavLink>
             <NavLink to="/"><li>Blogs - NEW</li></NavLink>
-            <a href='https://www.linkedin.com/in/ujjawal-rajput'><li>Connect</li></a>
+            <a href='https://www.linkedin.com/in/ujjawal-rajput'><li>Connect-On-Linkedin</li></a>
           </ul>
         </div>
       </div>

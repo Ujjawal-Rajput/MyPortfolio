@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom'
 import './App.css'
 import Landing from './components/Landing'
 import Nav from './components/Nav'
+import Foot from './components/Foot'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,8 +14,7 @@ function App() {
     <>
     <Nav/>
     <Outlet/>
-    {/* <Landing/> */}
-    
+    <Foot/>
     </>
   )
 }
