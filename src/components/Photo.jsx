@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 function Photo() {
 
   // useEffect(()=>{
-  //   fetch("GET https://api.linkedin.com/v2/people/id:ujjawal-rajput")
+  //   fetch("https://api.linkedin.com/v2/people/id:ujjawal-rajput")
   //   .then((res)=>res.json())
   //   .then((data)=>{
   //     console.log(data)

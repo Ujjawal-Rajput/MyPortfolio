@@ -3,6 +3,7 @@ import Photo from "../components/Photo/"
 
 function Landing() {
   return (
+    <>
     <div className='main_page'>
       <Photo/>
       <div className='Landing_text'>
@@ -20,6 +21,7 @@ function Landing() {
         <a href='https://www.linkedin.com/in/ujjawal-rajput'><button><i class="ri-linkedin-box-fill"></i> Connect me on Linkedin</button></a><br/>
       </div>
     </div>
+    </>
   )
 }
 
