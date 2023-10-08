@@ -12,7 +12,7 @@ function Photo() {
   return (
     <div className='main_page'>
       <div className='Landing_img'>
-        <img src='/profile.png' />
+        <img src='/MyPortfolio/profile.png' />
       </div>
     </div>
   )

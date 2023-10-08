@@ -18,7 +18,7 @@ function Landing() {
               <p>Full-stack</p>
           </div>
         </div>
-        <a href='https://www.linkedin.com/in/ujjawal-rajput'><button><i class="ri-linkedin-box-fill"></i> Connect me on Linkedin</button></a><br/>
+        <a href='https://www.linkedin.com/in/ujjawal-rajput' target='__blank'><button><i class="ri-linkedin-box-fill"></i> Connect me on Linkedin</button></a><br/>
       </div>
     </div>
     </>
