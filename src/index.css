@@ -160,6 +160,7 @@ button:focus-visible {
 /* Add this CSS to your existing stylesheet */
 
 .mobile-nav {
+  /* z-index: 1; */
   display: none;
   position: absolute;
   top: 0;
@@ -213,6 +214,7 @@ button:focus-visible {
   align-items: center;
   color: #fff;
   height: 100vh;
+  /* z-index: 0; */
   /* height: calc(100% - 70px); */
   /* position: absolute; */
   /* top: 0; */
@@ -241,6 +243,7 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* z-index: 5; */
 }
 
 .Landing_img img {
@@ -248,7 +251,7 @@ button:focus-visible {
   border-radius: 50%;
   width: 450px;
   height: 450px;
-  transition: .5;
+  /* transition: .5; */
 }
 
 .Landing_text h2 {
@@ -281,15 +284,39 @@ button:focus-visible {
   margin-top: 10px;
 }
 
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: left; */
+  background-color: #808DAD;
+  padding: 4px 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 10px;
+  color: black;
+}
+
 .text p:last-child {
   padding-top: 20px;
 }
 
-.Landing_text button {
+.Landing_text a{
+  width: fit-content;
+  margin-top: 40px;
+}
+
+.Landing_text a button {
+  border: none;
   border-radius: 10px;
   background-color: rgb(31, 30, 30);
   box-shadow: 0px 0px 20px 5px #fff;
-  margin-top: 40px;
   color: #fff;
   width: fit-content;
   font-size: 14px;
@@ -375,6 +402,70 @@ button:focus-visible {
 }
 
 /*footer ends from here*/
+
+
+/*blog css starts here*/
+.blogs{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 70px;
+  /* height:auto; */
+  /* height: 100vh; */
+  /* height: calc(100vh - 70px); */
+  /* flex-wrap:wrap; */
+  /* box-sizing: border-box; */
+  /* width: 200px; */
+  /* background-color: orange; */
+  /* padding: 100px; */
+  /* margin-top: 10px; */
+}
+.blogcard{
+  width: 100%;
+  border: 1px solid #171f38;
+  background-color: #171f38;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  /* height: 200px; */
+}
+.bloginfo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+.bloginfo p{
+  padding-left: 10px;
+}
+.bloginfo img{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.blogcontent p{
+  color: #808DAD;
+}
+.blogcard a{
+  background-color: #0e1631;
+  color: #fff;
+  padding: 7px;
+  width: fit-content;
+  border: 1px solid #808DAD;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+/*blog css ends here*/
 
 
 /* @media (max-width: 768px) {
