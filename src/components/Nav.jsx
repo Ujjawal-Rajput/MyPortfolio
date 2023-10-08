@@ -24,10 +24,10 @@ function Nav() {
         </div>
         <div className='navlinks'>
           <ul>
-            <NavLink to="/"><li>Home</li></NavLink>
-            <NavLink to="/about"><li>About</li></NavLink>
-            <NavLink to="/projects"><li>My Projects</li></NavLink>
-            <NavLink to="/"><li>Blogs - NEW</li></NavLink>
+            <NavLink to="/MyPortfolio"><li>Home</li></NavLink>
+            <NavLink to="/MyPortfolio/about"><li>About</li></NavLink>
+            <NavLink to="/MyPortfolio/projects"><li>My Projects</li></NavLink>
+            <NavLink to="/MyPortfolio"><li>Blogs - NEW</li></NavLink>
             <a href='https://www.linkedin.com/in/ujjawal-rajput'><li>Connect-On-Linkedin</li></a>
           </ul>
         </div>
@@ -37,10 +37,10 @@ function Nav() {
         <div className={`mobile-nav ${mobileNavOpen ? 'active' : ''}`}>
           <i onClick={closeMobileNav} className="ri-close-circle-fill"></i>
           <ul>
-            <NavLink to="/"><li>Home</li></NavLink>
-            <NavLink to="/about"><li>About</li></NavLink>
-            <NavLink to="/projects"><li>My Projects</li></NavLink>
-            <NavLink to="/"><li>Blogs - NEW</li></NavLink>
+            <NavLink to="/MyPortfolio"><li>Home</li></NavLink>
+            <NavLink to="/MyPortfolio/about"><li>About</li></NavLink>
+            <NavLink to="/MyPortfolio/projects"><li>My Projects</li></NavLink>
+            <NavLink to="/MyPortfolio"><li>Blogs - NEW</li></NavLink>
             <a href='https://www.linkedin.com/in/ujjawal-rajput'><li>Connect-On-Linkedin</li></a>
           </ul>
         </div>
