@@ -19,7 +19,7 @@ function Landing() {
             <div className='skills'>
               <h3>Technical Skills</h3>
               <div className="languages">
-                <h4>Programming Languags : </h4>
+                <h4>Languages : </h4>
                 <div>
                   <p>python</p>
                   <p>C</p>
