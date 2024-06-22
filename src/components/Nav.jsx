@@ -38,10 +38,10 @@ function Nav() {
           <i onClick={closeMobileNav} className="ri-close-circle-fill"></i>
           <ul>
             <NavLink to="/MyPortfolio"><li>Home</li></NavLink>
-            <NavLink to="/MyPortfolio/about"><li>About</li></NavLink>
-            <NavLink to="/MyPortfolio/projects"><li>My Projects</li></NavLink>
-            <NavLink to="/MyPortfolio/blog"><li>Blogs - NEW</li></NavLink>
-            <a href='https://www.linkedin.com/in/ujjawal-rajput' target='__blank'><li>Connect-On-Linkedin</li></a>
+            <NavLink to="/MyPortfolio/about"><li>About me</li></NavLink>
+            <NavLink to="/MyPortfolio/projects"><li>My projects</li></NavLink>
+            <NavLink to="/MyPortfolio/blog"><li>My Blogs - <span style={{color: "#01D293"}}>NEW</span></li></NavLink>
+            <a href='https://www.linkedin.com/in/ujjawal-rajput' target='__blank'><li>Connect on linkedin</li></a>
           </ul>
         </div>
       </div>

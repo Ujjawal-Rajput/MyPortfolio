@@ -3,7 +3,7 @@ import React from 'react'
 function BlogCard(props) {
   return (
     <div className='blogcard'>
-      <h2>{props.caption}</h2>
+      <h3>{props.title}</h3>
       <div className="bloginfo">
         <img src='/MyPortfolio/profile.png'/>
         <p>Ujjawal Rajput</p>
@@ -12,7 +12,7 @@ function BlogCard(props) {
       <div className="blogcontent">
         <p>{props.content}</p>
       </div>
-      <a href={props.url}>Read more..</a>
+      <a href={props.url}>Read more</a>
     </div>
   )
 }

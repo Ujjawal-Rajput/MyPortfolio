@@ -11,15 +11,15 @@ function Landing() {
           <h2>| <span>Hello</span></h2>
           <h1>I'm Ujjawal Rajput</h1>
           <div className='text'>
-            <p>Fullstack Developer & Student</p>
-            <p>Hi there! Welcome to my portfolio website, where i can showcase my work.
+            <p>Fullstack Developer & Student</p><br />
+            <p>👋 Hi there! Welcome to my portfolio website.
               I love all things tech and coding, I love ot share my knowledge and experience with others.</p>
 
 
             <div className='skills'>
-              <h3>Technical Skills</h3>
+              <h3>My Technical Skills : )</h3><br />
               <div className="languages">
-                <h4>Programming Languags : </h4>
+                <h5>Programming Languages : </h5>
                 <div>
                   <p>python</p>
                   <p>C</p>
@@ -32,7 +32,7 @@ function Landing() {
               </div>
 
               <div className="webs">
-                <h4>WebD : </h4>
+                <h5>WebDev : </h5>
                 <div>
                   <p>React.js</p>
                   <p>
@@ -43,7 +43,7 @@ function Landing() {
               </div>
 
               <div className="databases">
-                <h4>Database : </h4>
+                <h5>Databases : </h5>
                 <div>
                   <p>
                     MySQL</p>
@@ -55,7 +55,7 @@ function Landing() {
               </div>
 
               <div className="tools">
-                <h4>Dev Tools : </h4>
+                <h5>Dev Tools : </h5>
                 <div>
                   <p>
                     Git</p>
@@ -67,7 +67,7 @@ function Landing() {
               </div>
 
               <div className="pythonl">
-                <h4>Python libraries : </h4>
+                <h5>Python libraries : </h5>
                 <div>
                   <p>
                     Flask</p>
@@ -85,7 +85,7 @@ function Landing() {
               </div>
 
               <div className="javascriptl">
-                <h4>Javascript : </h4>
+                <h5>Javascript : </h5>
                 <div>
 
                   <p>
@@ -95,7 +95,7 @@ function Landing() {
               </div>
 
               <div className="others">
-                <h4>Others : </h4>
+                <h5>Others : </h5>
                 <div>
                   <p>
                     Leadership</p>
