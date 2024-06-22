@@ -3,7 +3,7 @@ import React from 'react'
 function Foot() {
   return (
     <div className='footer'>
-      <p>© Copyright 2023 - Developed by Ujjawal. All right reserved.</p>
+      <p>© Copyright 2024<br/>Developed by Ujjawal. All right reserved.</p>
     </div>
   )
 }
