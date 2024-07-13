@@ -161,16 +161,18 @@ button:focus-visible {
 /* Add this CSS to your existing stylesheet */
 
 .mobile-nav {
-  /* z-index: 1; */
+  z-index: 1000; 
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  background-color: #0e1631;
+  background-color: #041242;
   width: 70%;
   height: 100vh;
   text-align: center;
   align-items: center;
+  border-left: .1px solid #fff;
+  border-radius: 50px;
   /* justify-content: center; */
   /* box-sizing: border-box; */
 }
@@ -184,7 +186,7 @@ button:focus-visible {
   list-style: none;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   margin-top: 10vh;
   text-align: center;
@@ -197,7 +199,7 @@ button:focus-visible {
 
 .mobile-nav ul li {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
 }
 
@@ -236,23 +238,76 @@ button:focus-visible {
   /* align-items: center; */
   /* background-color: green; */
   /* padding: 40px; */
-
 }
+
+
+
+
+
+
+.flip-container {
+  /* background-color: green; */
+  /* z-index: 0; */
+  /* perspective: 1000px; */
+  /* width: 200px;
+  height: 300px; */
+}
+
+.flipper {
+  /* ====position & transform both are creating problem in photo =====*/
+  /* background-color: rgb(30, 41, 137); */
+  /* z-index: 1; */
+  /* position: relative; */
+  /* width: 100%;
+  height: 100%; */
+  /* transform-style: preserve-3d; */
+  transition: transform 0.3s;
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+/* .front{
+  position: absolute;
+  backface-visibility: hidden;
+} */
+
+/* .front {
+  z-index: 2;
+  transform: rotateY(0deg);
+} */
+
+/* .back {
+  z-index: 1;
+  transform: rotateY(180deg);
+} */
+
+
+
+
+
+
+
+
+
 
 .Landing_img {
   /* background-color: rgb(149, 29, 29); */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* z-index: 5; */
+  text-align: center;
+  /* z-index: 400; */
 }
 
 .Landing_img img {
+  /* z-index: -7; */
   border: 1px solid #fff;
   border-radius: 50%;
   width: 450px;
   height: 450px;
-  /* transition: .5; */
+  box-shadow: 0px 0px 30px -5px #6dbaee;
 }
 
 .Landing_text h2 {
@@ -533,13 +588,18 @@ button:focus-visible {
 
 @media (max-width:1000px) {
   .main_page {
+    /* background-color: green; */
     height: calc(100% - 70px);
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  .Landing_img img {
+  .Landing_img {
     margin-top: 100px;
+    /* z-index: 1; */
+  }
+
+  .Landing_img img {
     width: 70%;
     height: 70%;
   }
@@ -567,7 +627,7 @@ button:focus-visible {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    
+    /* z-index: 5; */
     /* Show the mobile navigation links when active */
   }
 

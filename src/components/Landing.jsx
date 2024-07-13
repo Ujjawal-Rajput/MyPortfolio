@@ -1,5 +1,5 @@
-import React from 'react'
 import Photo from "../components/Photo/"
+
 
 function Landing() {
   return (
@@ -8,7 +8,7 @@ function Landing() {
         <Photo />
         <div className='Landing_text'>
           {/* <br/><br/><br/> */}
-          <h2>| <span>Hello</span></h2>
+          <h2>| <span>Hey there !</span></h2>
           <h1>I'm Ujjawal Rajput</h1>
           <div className='text'>
             <p>Fullstack Developer & Student</p><br />
@@ -131,7 +131,7 @@ function Landing() {
 
             </div>
           </div>
-          <a href='https://www.linkedin.com/in/ujjawal-rajput' target='__blank'><button><i class="ri-linkedin-box-fill"></i> Connect me on Linkedin</button></a><br />
+          <a href='https://www.linkedin.com/in/ujjawal-rajput' target='__blank'><button><i class="ri-linkedin-box-fill"></i> Connect on Linkedin</button></a><br />
         </div>
       </div>
     </>
