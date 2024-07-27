@@ -65,7 +65,7 @@ const ParticlesComponent = (props) => {
         },
         links: {
           color: "#FFFFFF",
-          distance: 150,
+          distance: 100,
           enable: true,
           opacity: 0.3,
           width: 1,
@@ -77,23 +77,23 @@ const ParticlesComponent = (props) => {
             default: "bounce",
           },
           random: true,
-          speed: 3,
+          speed: 2,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 50,
         },
         opacity: {
           value: 1.0,
         },
         shape: {
-          type: "circle",
+          type: "polygon",
         },
         size: {
-          value: { min: 1, max: 3 },
+          value: { min: 2, max: 4 },
         },
       },
       detectRetina: true,

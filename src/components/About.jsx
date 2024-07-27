@@ -6,7 +6,8 @@ function About() {
         <div className='main_page'>
             <Photo/>
             <div className='Landing_text'>
-                <h2>| <span>Hello</span></h2>
+                {/* <h2>| <span>Hello</span></h2> */}
+                <h2><span style={{fontSize:"30px"}}>|</span> <span>Hiie</span></h2>
                 <h1>I'm Ujjawal Rajput</h1>
                 <div className='text'>
                     <p>Fullstack Developer & Student</p>

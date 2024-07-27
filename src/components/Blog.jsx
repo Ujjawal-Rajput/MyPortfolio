@@ -12,10 +12,13 @@ function Blog() {
       content: "Learn how to create a responsive Email Validator using...",
       url: "/Myprofile/blog/1/"
     }
+    
 
   ];
   return (
-    <div className='main_page' style={{ height: "calc(100% - 70px)" }}>
+    // <div className='main_page'/>
+    //  style={{ height: "calc(100% - 70px)" }}>
+    <div style={{color:"#fff"}}>
       <div className="blogs">
         <h3>My Blogs</h3>
 

@@ -35,14 +35,16 @@ function Projects() {
             text: "A basic javascript page just like facebook login and signup design",
             type: "Web Development",
             url: "https://ourownlibrary.pythonanywhere.com"
-        }
+        },
+
 
 
     ];
     return (
         <>
             {/* <h2 style={{ color: "#fff" }}>My Projects</h2> */}
-            <div className='main_page'>
+            {/* <div className='main_page'/> */}
+            <div>
                 <div className='project-cards'>
                     {cardData.length > 0 && cardData.map((item, index) => (
                         <Project_card
