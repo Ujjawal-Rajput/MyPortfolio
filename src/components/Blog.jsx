@@ -10,7 +10,8 @@ function Blog() {
       title: "Build an Email Validator with HTML, CSS, and JavaScript",
       date: "September 15, 2023",
       content: "Learn how to create a responsive Email Validator using...",
-      url: "/Myprofile/blog/1/"
+      url: "#"
+      // url: "/Myprofile/blog/1/"
     }
     
 

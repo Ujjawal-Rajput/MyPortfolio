@@ -21,6 +21,14 @@ function Projects() {
             url: "https://mainlibrary.pythonanywhere.com"
         },
         {
+            id: 4,
+            pic: "/MyPortfolio/SmartAttendence.png",
+            caption: "Smart-Attendence",
+            text: "A complete attendence live project customised for 8 lectures of my college",
+            type: "Web Development",
+            url: "https://rdec.pythonanywhere.com"
+        },
+        {
             id: 2,
             pic: "/MyPortfolio/youtubemini.png",
             caption: "Youtube-Mini",
@@ -35,8 +43,7 @@ function Projects() {
             text: "A basic javascript page just like facebook login and signup design",
             type: "Web Development",
             url: "https://ourownlibrary.pythonanywhere.com"
-        },
-
+        }
 
 
     ];

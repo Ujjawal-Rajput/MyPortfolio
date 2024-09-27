@@ -6,7 +6,7 @@ function ScrollDown() {
             <span class="mouse">
                 <span class="move"></span>
             </span>
-            <h3>Scroll down</h3>
+            <h4>Scroll down</h4>
         </div>
     )
 }
