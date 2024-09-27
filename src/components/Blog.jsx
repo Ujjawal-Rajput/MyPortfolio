@@ -11,7 +11,7 @@ function Blog() {
       date: "September 15, 2023",
       content: "Learn how to create a responsive Email Validator using...",
       url: "#"
-      // url: "/Myprofile/blog/1/" 
+      // url: "/Myprofile/blog/1/"  
     }
     
 
