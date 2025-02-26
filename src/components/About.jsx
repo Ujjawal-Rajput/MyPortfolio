@@ -14,7 +14,7 @@ function About() {
                 <div className='text'>
                     <p>Fullstack Developer & Student</p>
                     <ol style={{listStyleType: 'number', padding: 0, lineHeight: '1.6',margin:'10px 0px'}}>
-                        <li><strong>Sophomore in Computer Science (B.Tech)</strong></li>
+                        <li>I'm a <strong>3rd-year B.Tech</strong> student in <strong>Computer Science</strong></li>
                         <li>Skilled in <strong>Python (Flask, Numpy, Matplotlib, Pandas, Tkinter), HTML, CSS, JavaScript, ReactJs, NodeJS, MongoDB</strong></li>
                         <li>Developed <strong>web applications</strong> for hands-on project experience</li>
                         <li>Currently exploring <strong>Backend</strong> and other modern <strong>frameworks</strong> & <strong>libraries</strong></li>
